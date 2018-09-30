@@ -1,0 +1,11 @@
+﻿  Source.cpp
+e:\vs2017workspace\cppudpwin\cppudpwin\commands.h(10): warning C4005: 'PITCHFORWARD': macro redefinition
+  e:\vs2017workspace\cppudpwin\cppudpwin\commands.h(5): note: see previous definition of 'PITCHFORWARD'
+e:\vs2017workspace\cppudpwin\cppudpwin\commands.h(11): warning C4005: 'PITCHBACKWARD': macro redefinition
+  e:\vs2017workspace\cppudpwin\cppudpwin\commands.h(6): note: see previous definition of 'PITCHBACKWARD'
+e:\vs2017workspace\cppudpwin\cppudpwin\commands.h(12): warning C4005: 'ROLLLEFT': macro redefinition
+  e:\vs2017workspace\cppudpwin\cppudpwin\commands.h(7): note: see previous definition of 'ROLLLEFT'
+e:\vs2017workspace\cppudpwin\cppudpwin\commands.h(13): warning C4005: 'ROLLRIGHT': macro redefinition
+  e:\vs2017workspace\cppudpwin\cppudpwin\commands.h(8): note: see previous definition of 'ROLLRIGHT'
+e:\vs2017workspace\cppudpwin\cppudpwin\source.cpp(21): warning C4101: 'message': unreferenced local variable
+  CPPUDPWin.vcxproj -> E:\vs2017Workspace\CPPUDPWin\Debug\CPPUDPWin.exe
