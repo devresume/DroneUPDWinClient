@@ -7,10 +7,10 @@
 #define ROLLLEFT VK_LEFT
 #define ROLLRIGHT VK_RIGHT
 
-#define PITCHFORWARD 0x26
-#define PITCHBACKWARD 0x28
-#define ROLLLEFT 0x25
-#define ROLLRIGHT 0x27
+//#define PITCHFORWARD 0x26
+//#define PITCHBACKWARD 0x28
+//#define ROLLLEFT 0x25
+//#define ROLLRIGHT 0x27
 #define YAWLEFT 'A'
 #define YAwRIGHT 'D'
 #define THROTTLEUP 'W'

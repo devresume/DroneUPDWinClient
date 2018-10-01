@@ -10,8 +10,8 @@
 
 #pragma comment(lib,"ws2_32.lib") //Winsock Library
 
-#define SERVER "10.0.0.245"  //ip address of udp server
-//#define SERVER "192.168.0.101"  //ip address of udp server
+//#define SERVER "10.0.0.245"  //ip address of udp server
+#define SERVER "192.168.0.101"  //ip address of udp server
 #define BUFLEN 2041  //Max length of buffer
 #define PORT 14551   //The port on which to listen for incoming data
 
@@ -102,7 +102,7 @@ int main(void)
 		if (recvfrom(s, buf, BUFLEN, 0, (struct sockaddr *) &si_other, &slen) == SOCKET_ERROR)
 		{
 			printf("recvfrom() failed with error code : %d", WSAGetLastError());
-			//exit(EXIT_FAILURE);
+			exit(EXIT_FAILURE);
 		}
 
 		if (isExit && (std::stoi(std::string(buf)) == lastCmd))
